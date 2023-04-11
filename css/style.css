@@ -1,0 +1,358 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menufixed {
+    background-color:#4f474e;
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+  }
+  
+
+.head1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 10px;
+  width: 130px;
+}
+
+
+
+.head1 p{
+    color: white;
+}
+.head2 {
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  padding: 10px;
+  
+}
+.head2 a{
+    text-decoration: none;
+    color: white;
+}
+.textodomeio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 0;
+   
+
+  }
+  .textodomeio p{
+    padding: 0px 0 40px 0px;
+    
+
+  }
+  
+  
+
+.textodomeio h1 {
+  font-family: Roboto, Arial;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.textodomeio h2 {
+  font-family: Roboto, Arial;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 70px;
+}
+.batom {
+  font-family: Zeyada;
+  font-style: italic;
+  font-size: 128px;
+  line-height: 160px;
+  background-color: #a64d79;
+  width: 650px;
+  margin: 0 auto; /* centers the element horizontally */
+}
+.batom-historia {
+  font-family: Roboto, Arial;
+  font-size: 84px;
+  line-height: 105px;
+  font-weight: 100; 
+}
+.textodomeio p {
+  font-family: Roboto, Arial;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 30px;
+}
+
+.textodomeio-historia p {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 50px;
+  vertical-align: baseline;
+ 
+
+}
+.video{
+  display: flex; 
+  justify-content: center;
+  padding: 0 0 50px 0;
+}
+.texto-batom-historia{
+  padding: 0 450px;
+}
+.texto-batom-historia ul{
+  list-style-type: square;
+}
+.texto-batom-historia p{
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height:25px;
+  
+  vertical-align: baseline;
+}
+.texto-batom-historia ul li p{
+  font-family: Roboto, Arial;
+  font-size:17px;
+  font-weight: 400;
+  line-height:2;
+  color: #212121;
+  vertical-align: baseline;
+}
+.textodomeio-historia h2 {
+  font-family: Roboto, Arial;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  padding: 150px 0 80px;
+  color: #212121;
+}
+.bianca{
+  display: flex;
+  justify-content: center;
+  padding:30px 0 50px 0;
+}
+.bianca img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.bianca h3{
+  font-family: Roboto, Arial;
+  font-size: 24px;
+  font-weight:500;
+  line-height: 25px;
+  margin-top: 30px;
+  vertical-align: baseline;
+  color: #212121;
+
+}
+
+
+  
+  
+   
+ 
+   
+
+
+.fundo {
+    background-image: url("../img/glossy-lips-wallpaper-background.jpg");
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  }
+  .fundohistoria {
+    background-position: center center; 
+    background-image: url("../img/pxfuel.com.jpg"); 
+    background-size: cover;
+    height: 80vh;
+  }
+  
+.meio {
+  background-color: #ea9999;
+  height:80vw;
+  width: 100vw;
+}
+.meio-local {
+  background-color: #ea9999;
+  height:60vw;
+  width: 100vw;
+}
+
+.frase {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.frase p {
+  font-family: Roboto, Arial;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 35px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.patrocinadores{
+    font-family:Roboto; 
+    font-size:47px;
+    font-weight: 100;
+    position: relative; 
+    margin-left:auto; 
+    margin-bottom: 40px;
+    margin-right: auto; 
+    text-align: center; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.nomedasmarcas {
+    font-family: Roboto;
+    font-size: 20pt;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 100px;
+    
+   
+  }
+
+  .marcascaixa{
+    margin-left:15px;
+    margin-right:15px;
+  }
+
+  
+ 
+
+  .margemsuperior {
+    margin-top: 100px;
+  }
+  
+
+.logo {
+  display: flex;
+}
+
+.letramenu {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 15pt;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.lupa {
+  width: 50px;
+}
+
+.tabela {
+  margin: 0 auto;
+  border-spacing: 30px;
+}
+.marcas {
+  width: 271.35px;
+  height: 271.35px;
+}
+
+
+
+.presenca {
+  font-family: Roboto;
+  font-weight: 10;
+  font-size: 25pt;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.botaoconfirme a {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size:17px;
+  line-height: 22px;
+  position: relative;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  padding: 10px 90px;
+  text-decoration: none;
+  background-color: #fbfafa;
+  color: black;
+  
+}
+.rodape {
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+}
+.mapa iframe {
+  width: 480px;
+  height: 300px; 
+  border: 0; 
+  padding: 10px 600px  30px;
+   
+}
+.texto-batom-local img{
+  width: 280px;
+  height: 150px;
+  margin-left: 280px;
+ 
+}
+.texto-batom-local p{
+  font-family: Roboto, Arial;
+  font-size: 15px;
+  font-weight: 400;
+  line-height:2;
+  
+  vertical-align: baseline;
+} 
+.texto-batom-local div{
+  width: 400px;
+  height: 300px;
+  padding: 0px 30px;
+}
+.texto-batom-local{
+  margin: auto;
+  display: flex;
+   
+ 
+
+}
+.textodomeio-local p{
+  margin-left: 480px;
+  font-family: Roboto, Arial;
+  font-size: 19px;
+  font-weight: 700;
+  line-height:2;
+
+}
+.textodomeio-local{
+  padding: 30px ;
+  
+}
+.comochegar h3{
+  font-family: Roboto, Arial;
+  font-size: 37px;
+  font-weight: 100;
+  line-height:45px;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  color: #212121;
+}
