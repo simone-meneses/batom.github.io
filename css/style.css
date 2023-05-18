@@ -1,3 +1,4 @@
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -258,11 +259,35 @@
 .lupa {
   width: 50px;
 }
-
-.tabela {
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  justify-items: center; /* alinha os itens ao centro horizontalmente */
+  align-items: center; /* alinha os itens ao centro verticalmente */
   margin: 0 auto;
-  border-spacing: 30px;
 }
+
+.grid img {
+  width: 300px;
+  height: 300px;
+
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+  }
+
+  .grid img {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+
+
 .marcas {
   width: 271.35px;
   height: 271.35px;
@@ -355,4 +380,54 @@
   text-align: center;
   padding: 30px 0 30px 0;
   color: #212121;
+}
+@media screen and (max-width: 768px) {
+  .head1, .head2 {
+    flex-direction: column;
+  }
+
+  .batom {
+    font-size: 64px;
+    width: 100%;
+  }
+
+  .meio, .meio-local {
+    height: auto;
+  }
+
+  .frase p, .patrocinadores, .nomedasmarcas, .presenca {
+    font-size: 16px;
+  }
+
+  .marcascaixa {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .marcas {
+    width: 50%;
+  }
+
+  .botaoconfirme a {
+    padding: 10px 45px;
+    left: 50%;
+  }
+
+  .mapa iframe {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .texto-batom-local img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .texto-batom-local div {
+    width: 100%;
+  }
+
+  .textodomeio-local p {
+    margin-left: 0;
+  }
 }
